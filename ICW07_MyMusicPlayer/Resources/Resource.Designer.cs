@@ -41,11 +41,121 @@ namespace ICW07_MyMusicPlayer
 			}
 		}
 		
-		public partial class Layout
+		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Main = 2130837504;
+			public const int art_epic = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int art_goinghigher = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int art_littleplanet = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int art_scifi = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int art_slowmotion = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int art_straight = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int mpFirst = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int mpLast = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int mpNext = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int mpPause = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int mpPlay = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int mpPrevious = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int mpStop = 2130837516;
+			
+			static Drawable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f060002
+			public const int artFragment = 2131099650;
+			
+			// aapt resource value: 0x7f060005
+			public const int btnFirst = 2131099653;
+			
+			// aapt resource value: 0x7f06000a
+			public const int btnLast = 2131099658;
+			
+			// aapt resource value: 0x7f060009
+			public const int btnNext = 2131099657;
+			
+			// aapt resource value: 0x7f060007
+			public const int btnPlayPause = 2131099655;
+			
+			// aapt resource value: 0x7f060006
+			public const int btnPrevious = 2131099654;
+			
+			// aapt resource value: 0x7f060008
+			public const int btnStop = 2131099656;
+			
+			// aapt resource value: 0x7f06000b
+			public const int lvSongList = 2131099659;
+			
+			// aapt resource value: 0x7f060004
+			public const int playerControlsFragment = 2131099652;
+			
+			// aapt resource value: 0x7f060000
+			public const int songArt = 2131099648;
+			
+			// aapt resource value: 0x7f060003
+			public const int songListFragment = 2131099651;
+			
+			// aapt resource value: 0x7f060001
+			public const int txtNowPlaying = 2131099649;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
+		public partial class Layout
+		{
+			
+			// aapt resource value: 0x7f030000
+			public const int ArtFragment = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int PlayerControlFragment = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int SongListFragment = 2130903043;
 			
 			static Layout()
 			{
@@ -57,11 +167,42 @@ namespace ICW07_MyMusicPlayer
 			}
 		}
 		
+		public partial class Raw
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int bensound_epic = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int bensound_goinghigher = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int bensound_littleplanet = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int bensound_scifi = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int bensound_slowmotion = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public const int bensound_straight = 2130968581;
+			
+			static Raw()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Raw()
+			{
+			}
+		}
+		
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int app_name = 2130903040;
+			// aapt resource value: 0x7f050000
+			public const int app_name = 2131034112;
 			
 			static String()
 			{

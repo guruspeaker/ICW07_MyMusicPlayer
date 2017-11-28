@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:src="@drawable/mpFirst"
+        android:layout_width="126px"
+        android:layout_height="126px"
+        android:id="@+id/btnFirst" />
+    <ImageButton
+        android:src="@drawable/mpPrevious"
+        android:layout_width="126px"
+        android:layout_height="126px"
+        android:id="@+id/btnPrevious" />
+    <ImageButton
+        android:src="@drawable/mpPlay"
+        android:layout_width="132px"
+        android:layout_height="126px"
+        android:id="@+id/btnPlayPause" />
+    <ImageButton
+        android:src="@drawable/mpStop"
+        android:layout_width="126px"
+        android:layout_height="126px"
+        android:id="@+id/btnStop" />
+    <ImageButton
+        android:src="@drawable/mpNext"
+        android:layout_width="126px"
+        android:layout_height="126px"
+        android:id="@+id/btnNext" />
+    <ImageButton
+        android:src="@drawable/mpLast"
+        android:layout_width="126px"
+        android:layout_height="126px"
+        android:id="@+id/btnLast" />
+</LinearLayout>
